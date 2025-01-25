@@ -9,7 +9,7 @@ class Movement extends Phaser.Scene {
     }
 
     preload() {
-        this.load.spritesheet('char', './assets/spritesheets/Character_002.png', {
+        this.load.spritesheet('char', './assets/Character_002.png', {
             frameWidth: 48 // Don't need to specify Height
         })
 
